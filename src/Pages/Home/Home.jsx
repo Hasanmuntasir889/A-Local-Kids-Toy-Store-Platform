@@ -1,6 +1,6 @@
 import React from 'react'
 import Banner from '../../Components/Banner/Banner'
-import PropularSkills from '../../Components/PopularSkills/PopularSkills'
+import PopularSkills from '../../Components/PopularSkills/PopularSkills'
 
 export default function Home() {
 
