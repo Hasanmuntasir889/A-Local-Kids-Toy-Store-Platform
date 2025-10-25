@@ -2,7 +2,7 @@ import React from "react";
 import { FaStar } from "react-icons/fa";
 import { Link } from "react-router";
 
-export default function PopularSkill({ card }) {
+export default function PropularSkill({ card }) {
     const {skillId, image, skillName, rating, price, providerName } = card || {};
 
     return (
