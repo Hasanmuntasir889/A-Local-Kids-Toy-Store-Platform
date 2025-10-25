@@ -6,13 +6,14 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDCjkIovwr4UbuANFzkrGPeNBz2q913PPg",
-  authDomain: "b12-a09-68876.firebaseapp.com",
-  projectId: "b12-a09-68876",
-  storageBucket: "b12-a09-68876.firebasestorage.app",
-  messagingSenderId: "1026730295333",
-  appId: "1:1026730295333:web:2ab105155bcc2232ae7fcc",
-};
+    apiKey: "AIzaSyBlY-6movQc6FMtXdZamzLOQt97e50RsNU",
+    authDomain: "tradesmart-1ad40.firebaseapp.com",
+    projectId: "tradesmart-1ad40",
+    storageBucket: "tradesmart-1ad40.firebasestorage.app",
+    messagingSenderId: "228645519773",
+    appId: "1:228645519773:web:61d4da2e993a5c1e682f74",
+    measurementId: "G-QTZN77P48W"
+  };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
