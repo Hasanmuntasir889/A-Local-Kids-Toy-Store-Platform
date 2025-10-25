@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import PropularSkill from "./PropularSkill";
+import PopularSkill from "./PopularSkill";
 
 export default function PopularSkills() {
   const [cards, setCards] = useState([]);
@@ -35,7 +35,7 @@ export default function PopularSkills() {
       <div className="container mx-auto md:px-4">
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {cards.map((card, index) => (
-            <PropularSkill key={index} card={card}></PropularSkill>
+            <PopularSkill key={index} card={card}></PopularSkill>
           ))}
         </div>
       </div>

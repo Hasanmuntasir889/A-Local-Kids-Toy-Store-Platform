@@ -1,6 +1,6 @@
 import React from 'react'
 import Banner from '../../Components/Banner/Banner'
-import PropularSkills from '../../Components/PropularSkills/PropularSkills'
+import PopularSkills from '../../Components/PopularSkills/PopularSkills'
 
 export default function Home() {
 
@@ -10,7 +10,7 @@ export default function Home() {
         <Banner></Banner>
       </div>
       <div className='container mx-auto px-10'>
-        <PropularSkills></PropularSkills>
+        <PopularSkills></PopularSkills>
       </div>
     </div>
   )
