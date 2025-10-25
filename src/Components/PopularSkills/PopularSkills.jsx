@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import PopularSkill from "./PopularSkill";
+import PropularSkill from "./PopularSkill";
 
 export default function PopularSkills() {
   const [cards, setCards] = useState([]);
